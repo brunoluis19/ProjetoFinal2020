@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/tx.css" />
+<link rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" href="css/cssMedia.css"/>
+<link rel="stylesheet" href="css/headers.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Login Page</title>
+</head>
+<style>
+.button {
+  background-color: rgb(104, 104, 104); /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button3 {padding: 30px 800px;}
+</style>
+<body>
+
+
+  <!--
+<h2>Login Page</h2>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Registar</button>
+
+<button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Login</button>
+
+<button onclick="document.getElementById('id03').style.display='block'" style="width:auto;">Editar</button>
+
+<button onclick="document.getElementById('id04').style.display='block'" style="width:auto;">Remover</button>
+-->
+
+
+<div class="navbar">
+  <font size="6"><a href="index.html">VOLTAR</a></font>
+
+  
+</div>
+<hr>
+<div class="header1">
+  <center><img src="img/leg.png" alt="MyImage" width="400" height="55">
+  <div class="header1-right">
+  
+  </div></center>
+</div>
+<hr>
+<div class="header">
+  <img src="img/call-of-duty-logo-font-download.jpg" alt="MyImage" width="400" height="200">
+  <p class="verdana"><font size="6">Web Application for Team Management of a Game</font></p>
+</div>
+    <section>
+      <nav>
+        <ul>
+          <center> 
+            <h1>Login Page</h1>
+            <pre>
+
+              <img src="img/login_1172146.png" alt="MyImage" width="600" height="600">
+
+
+          </pre>
+          </center>
+        </ul>
+      </nav>
+      <article>
+        <center>
+        <button class="button button3" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Registar</button>
+            
+
+
+<button class="button button3" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Login</button>
+            
+
+
+<button class="button button3" onclick="document.getElementById('id03').style.display='block'" style="width:auto;">Editar</button>
+            
+
+
+<button class="button button3" onclick="document.getElementById('id04').style.display='block'" style="width:auto;">Remover</button>
+
+
+</center>
+      </article>
+    </section>
+
+ 
+    
+    <footer>
+      <div align="left">   
+      </div>
+      <div align="right">
+        <a href="https://www.facebook.com/" class="fa fa-facebook" ></a>
+        <a href="https://twitter.com/login" class="fa fa-twitter"></a>
+        <a href="https://www.google.pt/" class="fa fa-google"></a>
+        <a href="https://www.youtube.com/?gl=PT" class="fa fa-youtube"></a>
+<a href="https://www.instagram.com/?hl=pt" class="fa fa-instagram"></a>
+        </div>  
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/registar" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="username"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="pass" required>
+
+      <label for="Nome"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="nome" required>
+
+      <label for="Email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+
+<div id="id02" class="modal">
+  
+  <form class="modal-content animate" action="/login" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="pass" required>
+
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+
+
+<div id="id03" class="modal">
+  
+  <form class="modal-content animate" action="/edit" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="pass" required>
+
+      <label for="Nome"><b>Nome</b></label>
+      <input type="text" placeholder="Enter Username" name="nome" required>
+
+      <label for="Email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id03').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+
+<div id="id04" class="modal">
+  
+  <form class="modal-content animate" action="/delete" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id04').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>

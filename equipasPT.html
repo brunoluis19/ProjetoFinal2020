@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style2.css" />
+  <link rel="stylesheet" href="css/cssMedia.css" />
+  <link rel="stylesheet" href="css/headers.css" />
+  <link rel="stylesheet" href="css/tableCss.css" />
+  <link rel="stylesheet" href="css/equipashtml.css" />
+  <script type="text/javascript" src="scripts/sound.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="scripts/equipashtml.js"></script>
+  <title>Página Equipas - Gestão de Jogadores</title>
+</head>
+
+<body>
+
+
+  <!---->
+  <div class="navbar">
+
+    <font size="6"><a href="#home">PÁGINA JOGADORES</a>
+    </font>
+  </div>
+
+  <hr>
+
+
+  <div class="header1">
+    <img src="img/leg.png" alt="MyImage" width="400" height="55">
+    <a href="#default" class="logo">COD eSPORTS</a>
+    <div class="header1-right">
+      <a href="homePT.html">INICIO</a>
+      <a href="utilizadoresPT.html">UTILIZADORES</a>
+      <a class="active">EQUIPAS</a>
+      <a href="jogosPT.html">JOGOS</a>
+      <a href="jogadoresPT.html">JOGADORES</a>
+      <a href="info.html">CREDITOS</a>
+      <img src="img/pt.png" alt="MyImage" width="100" height="50">
+    </div>
+  </div>
+
+
+  <hr>
+
+
+
+  <div class="header">
+    <img src="img/call-of-duty-logo-font-download.jpg" alt="MyImage" width="400" height="200">
+    <h2>Aplicação Web para a Gestão de Equipas de um Jogo</h2>
+    <main>
+      <p data-file="SUPRISE">CLICK ME "play a sound"c</p>
+    </main>
+    <audio id="a" src=""></audio>
+    <div class="divc"></div>
+  </div>
+
+  <hr>
+
+
+  <section>
+    <nav>
+      <ul>
+        <p></p>
+        <p></p>
+        <center>
+          <font size="6">Equipas</font>
+        </center>
+        <center>
+          <font size="4">Projeto PI</font>
+        </center>
+        <table align="center"
+        style="width: 400px; border: 1px solid black; border-collapse: collapse; margin-top: 20px;">
+          <tbody>
+            <tr>
+              <th><span id="teamname">* Choose a Team *</span></th>
+            </tr>
+            <tr>
+              <td align="center"><span><img src="img/no-photo.jpg" id="imgEquipa" alt="Select a Team"
+                    class="image2"></span></td>
+            </tr>
+            <tr>
+              <th>Team Information</th>
+            </tr>
+            <tr>
+              <td>
+                <table align="right"
+        style="width: 400px; border-collapse: collapse; margin-top: 20px;">
+                  <tr>
+                    <td style="width: 50%;"><b id="labexttext1" class="label"></b></td>
+                    <td><img id="imgC"><span id="orgloc" class="label"></span></td>
+                  </tr>
+                  <tr>
+                    <td><b id="labexttext2" class="label"></b></td>
+                    <td><div class="region-icon" style="color:#D0AA20" id="regionicon"></div><span id="descregicon" class="label"></td>
+                  </tr>
+                  <tr>
+                    <td><b id="labexttext3" class="label"></b></td>
+                    <td><a id="ownername" class="label"></a></td>
+                  </tr>
+                  <tr>
+                    <td><b id="labexttext4" class="label"></b></td>
+                    <td><a id="headC" class="label"></a></td>
+                  </tr>
+                  <tr>
+                    <td><b id="labexttext5" class="label"></b></td>
+                    <td><a id="affteam" class="label"></a></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td><a id="affteam2" class="label" align="right"></a></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <th>History</th>
+            </tr>
+            <tr>
+              <td align="center" style="padding-top: 5px; padding-bottom: 5px;"><span id="history">* Choose a Team
+                  *</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </ul>
+    </nav>
+
+    <article>
+
+
+      <table class="table" id="t01">
+        <tr>
+          <th><input type="checkbox" class="largerCheckbox" name="checkBox"></th>
+          <th>
+            <h1>Equipa</h1>
+          </th>
+          <th>
+            <h1>Opções</h1>
+          </th>
+        </tr>
+        <tr>
+          <td><input type="checkbox" class="largerCheckbox" name="checkBox1"> </td>
+          <td>
+            <h3>Atlanta Faze</h3>
+          </td>
+          <td>
+            <h3>
+              <!-- Ao clicar no Ver Equipa vai executar a função que define todos os dados da equipa a aparecer na card-->
+              <p><b><a onclick="setFaZeInfo()">Ver Equipa</a></b></p>
+            </h3>
+          </td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" class="largerCheckbox" name="checkBox2"> </td>
+          <td>
+            <h3>AstriX eSPORTS</h3>
+          </td>
+          <td>
+            <h3>
+              <!-- Ao clicar no Ver Equipa vai executar a função que define todos os dados da equipa a aparecer na card-->
+              <p><b><a onclick="setChicagoInfo()">Ver Equipa</a></b></p>
+            </h3>
+          </td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" class="largerCheckbox" name="checkBox3"> </td>
+          <td>
+            <h3>Team WaR</h3>
+          </td>
+          <td>
+            <h3>
+              <!-- Ao clicar no Ver Equipa vai executar a função que define todos os dados da equipa a aparecer na card-->
+              <p><b><a onclick="setDallasInfo()">Ver Equipa</a></b></p>
+            </h3>
+          </td>
+        </tr>
+      </table>
+
+
+
+      <center>
+        <button class="button button4">Adicionar</button>
+        <button class="button button4">Editar</button>
+        <button class="button button4">Remover</button>
+      </center>
+
+    </article>
+  </section>
+
+
+
+  <footer>
+    <div align="left">
+      <img class="img-footer" src="img/cpyr.png" alt="MyImage" width="50" height="50">
+      <h2 class="h2-footer">2019 Bruno Luis & Ricardo Neves All Rights Reserved</h2>
+    </div>
+
+    <div align="right">
+      <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+      <a href="https://twitter.com/login" class="fa fa-twitter"></a>
+      <a href="https://www.google.pt/" class="fa fa-google"></a>
+      <a href="https://www.youtube.com/?gl=PT" class="fa fa-youtube"></a>
+      <a href="https://www.instagram.com/?hl=pt" class="fa fa-instagram"></a>
+    </div>
+
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style2.css" />
+  <link rel="stylesheet" href="css/cssMedia.css" />
+  <link rel="stylesheet" href="css/headers.css" />
+  <link rel="stylesheet" href="css/tableCss.css" />
+  <link rel="stylesheet" href="css/jogadoreshtml.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="scripts/jogadoreshtml.js"></script>
+  <title>Página Jogadores - Gestão de Equipas</title>
+
+</head>
+
+<body>
+
+  <div class="navbar">
+    <font size="6"><a href="#home">PÁGINA JOGADORES</a>
+    </font>
+  </div>
+
+  <hr>
+
+
+  <div class="header1">
+    <img src="img/leg.png" alt="MyImage" width="400" height="55">
+    <a href="#default" class="logo">COD eSPORTS</a>
+    <div class="header1-right">
+      <a href="homePT.html">INICIO</a>
+      <a href="utilizadoresPT.html">UTILIZADORES</a>
+      <a href="equipasPT.html">EQUIPAS</a>
+      <a href="jogosPT.html">JOGOS</a>
+      <a class="active">JOGADORES</a>
+      <a href="info.html">CREDITOS</a>
+      <img src="img/pt.png" alt="MyImage" width="100" height="50" style="margin-left: 15px;">
+    </div>
+  </div>
+
+
+  <hr>
+
+
+
+  <div class="header">
+    <img src="img/call-of-duty-logo-font-download.jpg" alt="MyImage" width="400" height="200">
+    <h2>Aplicação Web para a Gestão de Equipas de um Jogo</h2>
+  </div>
+
+  <hr>
+
+  <section>
+    <nav>
+      <ul>
+        <p></p>
+        <p></p>
+        <center>
+          <font size="6">Jogadores</font>
+        </center>
+        <center>
+          <font size="4">Projeto PI</font>
+        </center>
+        <table align="center"
+          style="width: 400px; border: 1px solid black; border-collapse: collapse; margin-top: 20px;">
+          <tr>
+            <th id="nickname">* Choose a Player *</th>
+          </tr>
+          <tr>
+            <td align="center"><span><img src="img/no-photo.jpg" id="imgEquipa" alt="Select a Team"
+                  class="image2"></span></td>
+          </tr>
+          <tr>
+            <th>Background Information</th>
+          </tr>
+          <tr>
+            <td>
+              <table align="right" style="width: 400px; border-collapse: collapse; margin-top: 20px;">
+                <tr>
+                  <td style="width: 50%;"><b class="label">Name:</b></td>
+                  <td><a id="nome" class="label"></a></a></td>
+                </tr>
+                <tr>
+                  <td><b class="label">Country of Birth:</b></td>
+                  <td><img id="imgC"><span id="countrybirth" class="label"></span></td>
+                </tr>
+                <tr>
+                  <td><b class="label">Birthday:</b></td>
+                  <td><a id="bday" class="label"></a></td>
+                </tr>
+                <tr>
+                  <td><b class="label">Residency:</b></td>
+                  <td>
+                    <div class="region-icon" style="color:#1111FF;" id="regp" class="label"></div><span id="descreg"
+                      class="label"></span>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <th>Competitive</th>
+          </tr>
+          <tr>
+            <td>
+              <table align="right" style="width: 400px; border-collapse: collapse; margin-top: 20px;">
+                <tr>
+                  <td style="width: 50%;"><b id="team1" class="label"></b></td>
+                  <td><a id="team2" class="label"></a></td>
+                </tr>
+                <tr>
+                  <td><b id="label1" class="label"></b></td>
+                  <td><a id="Slabel1" class="label"></a></td>
+                </tr>
+                <tr>
+                  <td><b id="label2" class="label"></b></td>
+                  <td><a id="Slabel2" class="label"></a></td>
+                </tr>
+                <tr>
+                  <td><b id="label3" class="label"></b></td>
+                  <td><a id="Slabel3" class="label"></a></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <th>Team History</th>
+          </tr>
+          <tr>
+            <td>
+              <table align="right" style="width: 400px; border-collapse: collapse; margin-top: 20px;">
+                <tr>
+                  <td style="width: 50%;"><b id="teamhistorydate1" class="label"></b></td>
+                  <td><span id="teamhistory1" class="label"></span></td>
+                </tr>
+                <tr>
+                  <td><b id="teamhistorydate2" class="label"></b></td>
+                  <td><span id="teamhistory2" class="label"></span></td>
+                </tr>
+                <tr>
+                  <td><b id="teamhistorydate3" class="label"></b></td>
+                  <td><span id="teamhistory3" class="label"></span></td>
+                </tr>
+                <tr>
+                  <td><b id="teamhistorydate4" class="label"></b></td>
+                  <td><span id="teamhistory4" class="label"></span></td>
+                </tr>
+                <tr>
+                  <td><b id="teamhistorydate5" class="label"></b></td>
+                  <td><span id="teamhistory5" class="label"></span></td>
+                </tr>
+                <tr>
+                  <td><b id="teamhistorydate6" class="label"></b></td>
+                  <td><span id="teamhistory6" class="label"></span></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </ul>
+    </nav>
+
+    <article>
+
+      <table class="table" id="t01">
+        <tr>
+          <th><input type="checkbox" class="largerCheckbox" name="checkBox"> </th>
+          <th>
+            <h1>Nome</h1>
+          </th>
+          <th>
+            <h1>Equipa</h1>
+          </th>
+          <th>
+            <h1>Ações</h1>
+          </th>
+        </tr>
+        <tr>
+          <td><input type="checkbox" class="largerCheckbox" name="checkBox1"> </td>
+          <td>
+            <h3>aBeZy</h3>
+          </td>
+          <td>
+            <h3>FaZe</h3>
+          </td>
+          <!-- Ao clicar no Ver Informação vai executar a função que define todos os dados do jogador a aparecer na card-->
+          <td><a onclick="setFaZePlayerInfo()"> Ver Informacao</a></td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" class="largerCheckbox" name="checkBox2"> </td>
+          <td>
+            <h3>Arcitys</h3>
+          </td>
+          <td>
+            <h3>CHI Huntsmen</h3>
+          </td>
+          <!-- Ao clicar no Ver Informação vai executar a função que define todos os dados do jogador a aparecer na card-->
+          <td><a onclick="setHuntsmenPlayerInfo()"> Ver Informacao</a></td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" class="largerCheckbox" name="checkBox3"></td>
+          <td>
+            <h3>Shotzzy</h3>
+          </td>
+          <td>
+            <h3>DAL Empire</h3>
+          </td>
+          <!-- Ao clicar no Ver Informação vai executar a função que define todos os dados do jogador a aparecer na card-->
+          <td><a onclick="setEmpirePlayerInfo()"> Ver Informacao</a></td>
+        </tr>
+      </table>
+
+
+      <center>
+        <button class="button button4">Adicionar</button>
+        <button class="button button4">Editar</button>
+        <button class="button button4">Remover</button>
+      </center>
+
+
+    </article>
+  </section>
+
+
+
+  <footer>
+
+    <div align="left">
+      <img class="img-footer" src="img/cpyr.png" alt="MyImage" width="50" height="50">
+      <h2 class="h2-footer">2019 Bruno Luis & Ricardo Neves All Rights Reserved</h2>
+    </div>
+
+    <div align="right">
+      <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+      <a href="https://twitter.com/login" class="fa fa-twitter"></a>
+      <a href="https://www.google.pt/" class="fa fa-google"></a>
+      <a href="https://www.youtube.com/?gl=PT" class="fa fa-youtube"></a>
+      <a href="https://www.instagram.com/?hl=pt" class="fa fa-instagram"></a>
+    </div>
+
+  </footer>
+</body>
+
+</html>

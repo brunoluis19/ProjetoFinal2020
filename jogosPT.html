@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style2.css"/>
+    <link rel="stylesheet" href="css/cssMedia.css"/>
+    <link rel="stylesheet" href="css/headers.css"/>
+    <link rel="stylesheet" href="css/tableCss.css"/>
+    <script type="text/javascript" src="scripts/sound.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Página Jogos - Gestão de Jogadores</title>
+
+    <!-- 120px 120px 1px 120px -->
+
+ <style>
+
+h4 {
+  font-size: 6;
+  text-shadow: 3px 2px rgb(155, 155, 155);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 6;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+
+h3 {
+  text-align: center;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.h8{
+  text-align: center;
+}
+h2 {
+  font-size: 6;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+ table {
+  width:100%;
+}
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 50px;
+  text-align: left;
+  text-align: center;
+}
+table#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+ background-color: #fff;
+}
+table#t01 th {
+  background-color: black;
+  color: white;
+}
+
+
+input.largerCheckbox { 
+            width: 40px; 
+            height: 40px;
+            text-align: center; 
+        } 
+
+
+ a {
+  color: rgb(185, 184, 185);
+}
+
+.button {
+  background-color: rgb(0, 0, 0); 
+  border: none;
+  color: white;
+  padding: 35px 75px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 30px 10px;
+  cursor: pointer;
+  text-align: center;
+
+}
+
+.button4 {border-radius: 12px;}
+
+ </style>
+</head>
+<body>
+
+    
+  <!---->
+<div class="navbar">
+    
+    <font size="6"><a href="#home">PÁGINA JOGOS</a>
+  </font>
+</div>
+
+  <hr>
+
+        
+<div class="header1">
+    <img src="img/leg.png" alt="MyImage" width="400" height="55">
+    <a href="#default" class="logo">COD eSPORTS</a>
+    <div class="header1-right">
+      <a href="homePT.html">INICIO</a>
+      <a href="utilizadoresPT.html">UTILIZADORES</a>
+      <a href="equipasPT.html">EQUIPAS</a>
+      <a class="active" >JOGOS</a>
+      <a href="jogadoresPT.html">JOGADORES</a>
+      <a href="info.html">CREDITOS</a>
+      <img src="img/pt.png" alt="MyImage" width="100" height="50">
+    </div>
+  </div>
+
+
+  <hr>
+
+
+ 
+  <div class="header">
+    <img src="img/call-of-duty-logo-font-download.jpg" alt="MyImage" width="400" height="200">
+    <h2>Aplicação Web para a Gestão de Equipas de um Jogo</h2>
+    <main>
+      <p data-file="SUPRISE">CLICK ME "play a sound"c</p>
+    </main>    
+    <audio id="a" src=""></audio>
+    <div class="divc"></div>
+      </div>
+
+<hr>
+
+
+
+      <section>
+        <nav>
+          <ul>
+            <p></p>
+            <p></p>
+            <center><font size="6">Jogos</font></center>
+            <center><font size="4">Projeto PI</font></center>
+            <center><img src="img/games.png" alt="MyImage" width="700" height="750"></center>
+
+
+              
+          </ul>
+        </nav>
+        
+        <article>
+           
+               
+<table id="t01">
+    <tr>
+      <th><input type="checkbox" class="largerCheckbox"
+        name="checkBox"> </th>
+      <th><h1>Equipa 1</h1></th> 
+      <th><h1>Equipa 2</h1></th>
+      <th><h1>Resultado</h1></th>
+      <th><h1>Detalhes</h1></th>
+    </tr>
+    <tr>
+      <td><input type="checkbox" class="largerCheckbox"
+        name="checkBox1"> </td>
+      <td><h3>Atlanta Faze</h3></td>
+      <td><h3>Team WaR</h3></td>
+      <td><h3>1-3</h3></td>
+      <td><h3><p><b><a href="#" >Ver Detalhes</a></b></p></h3></td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" class="largerCheckbox"
+        name="checkBox2"> </td>
+      <td><h3>AstriX eSPORTS</h3></td>
+      <td><h3>Atlanta Faze</h3></td>
+      <td><h3>2-0</h3></td>
+      <td><h3><p><b><a href="#" >Ver Detalhes</a></b></p></h3></td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" class="largerCheckbox"
+        name="checkBox3"> </td>
+      <td><h3>Team WaR</h3></td>
+      <td><h3>AstriX eSPORTS</h3></td>
+      <td><h3>1-1</h3></td>
+      <td><h3><p><b><a href="#">Ver Detalhes</a></b></p></h3></td>
+    </tr>
+  </table>
+
+  <center>
+    <button class="button button4">Adicionar</button>
+    <button class="button button4">Editar</button>
+    <button class="button button4">Remover</button>
+  </center>
+                              
+        </article>
+      </section>
+
+   
+      
+      <footer>
+        
+          <div align="left">
+              <img class="img-footer" src="img/cpyr.png" alt="MyImage" width="50" height="50"><h2 class="h2-footer">2019 Bruno Luis & Ricardo Neves All Rights Reserved</h2>
+          </div>
+
+        <div align="right">
+          <a href="https://www.facebook.com/" class="fa fa-facebook" ></a>
+          <a href="https://twitter.com/login" class="fa fa-twitter"></a>
+          <a href="https://www.google.pt/" class="fa fa-google"></a>
+          <a href="https://www.youtube.com/?gl=PT" class="fa fa-youtube"></a>
+<a href="https://www.instagram.com/?hl=pt" class="fa fa-instagram"></a>
+          </div>
+      
+      </footer>
+</body>
+</html>
